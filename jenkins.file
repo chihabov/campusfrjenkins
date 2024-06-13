@@ -1,0 +1,40 @@
+pipeline {
+    agent any
+ 
+    stages {
+        stage('Checkout') {
+            steps {
+         
+                git credentialsId: 'TokenCam', url: 'https://github.com/chihabov/campusfrjenkins.git', branch: 'main'
+            }
+        }
+        stage('Clean solution ') {
+            steps {
+           
+                bat '"C:\\Program Files\\dotnet\\dotnet.exe" clean C:\\Users\\chiha\\source\\repos\\CampusFrance\\CampusFrance -c:Debug'
+           
+            }
+        }
+        stage('Build') {
+            steps {
+           
+                bat '"C:\\Program Files\\dotnet\\dotnet.exe" build C:\\Users\\chiha\\source\\repos\\CampusFrance\\CampusFrance' // Utilisation de 'bat' pour exécuter des commandes Windows
+               
+
+            }
+        }
+         stage('Run') {
+            steps {
+           
+                bat '"C:\\Program Files\\dotnet\\dotnet.exe" test "C:\\Users\\chiha\\source\\repos\\CampusFrance\\CampusFrance\\bin\\Debug\\net6.0\\CampusFrance.dll"'
+// Utilisation de 'bat' pour exécuter des commandes Windows
+
+      }
+
+
+        }
+    }
+
+}
+
+
