@@ -1,0 +1,55 @@
+-> Loading plugin C:\Users\chiha\source\repos\CampusFrance\CampusFrance\bin\Debug\net6.0\LivingDoc.SpecFlowPlugin.dll
+-> Loading plugin C:\Users\chiha\source\repos\CampusFrance\CampusFrance\bin\Debug\net6.0\TechTalk.SpecFlow.MSTest.SpecFlowPlugin.dll
+-> Loading plugin C:\Users\chiha\source\repos\CampusFrance\CampusFrance\bin\Debug\net6.0\CampusFrance.dll
+-> Using default config
+Given L'Utilisateur se trouve sur la page daccueil de Campus France
+-> done: CreationDuCompteCampusFranceStepDefinitions.GivenLUtilisateurSeTrouveSurLaPageDaccueilDeCampusFrance() (5,4s)
+When L'Utilisateur renseigne "<email>" , "<Motdepass>" , "<confMotPasse>"
+-> done: CreationDuCompteCampusFranceStepDefinitions.WhenLUtilisateurRenseigne("<email>", "<Motdepass>", "<confMotPasse>") (13,0s)
+And L'Utilisateur clique sur le bouton "Mme"
+-> done: CreationDuCompteCampusFranceStepDefinitions.WhenLUtilisateurCliqueSurLeBouton("Mme") (2,3s)
+And L'Utilisateur renseigne les champs "<Nom>","<Prénom>"
+-> done: CreationDuCompteCampusFranceStepDefinitions.WhenLUtilisateurRenseigneLesChamps("<Nom>", "<Prénom>") (2,3s)
+And L'Utilisateur séléctionne "Afrique", "<PaysdeNationalité>"
+-> done: CreationDuCompteCampusFranceStepDefinitions.WhenLUtilisateurSelectionne("Afrique", "<PaysdeNationalité>") (2,5s)
+And L'Utilisateur remplie "<Codepostal>", "<Ville>", "<Telephone>"
+-> done: CreationDuCompteCampusFranceStepDefinitions.WhenLUtilisateurRemplie("<Codepostal>", "<Ville>", "<Telephone>") (8,4s)
+And L'Utilisateur Clique sur le bouton Etudiants "Institutionnel"
+-> done: CreationDuCompteCampusFranceStepDefinitions.WhenLUtilisateurCliqueSurLeBoutonEtudiants("Institutionnel") (2,1s)
+And L'utilisateur renseigne la fonction "<Fonction>"
+-> done: CreationDuCompteCampusFranceStepDefinitions.WhenLutilisateurRenseigneLaFonction("<Fonction>") (0,2s)
+And L'Utilisateur séléctione le niveau "Type d'organisme"
+-> done: CreationDuCompteCampusFranceStepDefinitions.WhenLorganisme("Utilisateur séléc...") (4,2s)
+And L'utilisateur renseigne le nom de lorganisme "<NomdeLorganisation>"
+-> done: CreationDuCompteCampusFranceStepDefinitions.WhenLutilisateurRenseigneLeNomDeLorganisme("<NomdeLorganisation>") (4,1s)
+And L'Utillisateur clique sur "accepter"
+-> done: CreationDuCompteCampusFranceStepDefinitions.WhenLUtillisateurCliqueSur("accepter") (0,1s)
+Then afficher les messagess
+-> done: CreationDuCompteCampusFranceStepDefinitions.ThenAfficherLesMessagess() (0,0s)
+
+
+TestContext Messages:
+Given L'Utilisateur se trouve sur la page daccueil de Campus France
+-> done: CreationDuCompteCampusFranceStepDefinitions.GivenLUtilisateurSeTrouveSurLaPageDaccueilDeCampusFrance() (5,4s)
+When L'Utilisateur renseigne "<email>" , "<Motdepass>" , "<confMotPasse>"
+-> done: CreationDuCompteCampusFranceStepDefinitions.WhenLUtilisateurRenseigne("<email>", "<Motdepass>", "<confMotPasse>") (13,0s)
+And L'Utilisateur clique sur le bouton "Mme"
+-> done: CreationDuCompteCampusFranceStepDefinitions.WhenLUtilisateurCliqueSurLeBouton("Mme") (2,3s)
+And L'Utilisateur renseigne les champs "<Nom>","<Prénom>"
+-> done: CreationDuCompteCampusFranceStepDefinitions.WhenLUtilisateurRenseigneLesChamps("<Nom>", "<Prénom>") (2,3s)
+And L'Utilisateur séléctionne "Afrique", "<PaysdeNationalité>"
+-> done: CreationDuCompteCampusFranceStepDefinitions.WhenLUtilisateurSelectionne("Afrique", "<PaysdeNationalité>") (2,5s)
+And L'Utilisateur remplie "<Codepostal>", "<Ville>", "<Telephone>"
+-> done: CreationDuCompteCampusFranceStepDefinitions.WhenLUtilisateurRemplie("<Codepostal>", "<Ville>", "<Telephone>") (8,4s)
+And L'Utilisateur Clique sur le bouton Etudiants "Institutionnel"
+-> done: CreationDuCompteCampusFranceStepDefinitions.WhenLUtilisateurCliqueSurLeBoutonEtudiants("Institutionnel") (2,1s)
+And L'utilisateur renseigne la fonction "<Fonction>"
+-> done: CreationDuCompteCampusFranceStepDefinitions.WhenLutilisateurRenseigneLaFonction("<Fonction>") (0,2s)
+And L'Utilisateur séléctione le niveau "Type d'organisme"
+-> done: CreationDuCompteCampusFranceStepDefinitions.WhenLorganisme("Utilisateur séléc...") (4,2s)
+And L'utilisateur renseigne le nom de lorganisme "<NomdeLorganisation>"
+-> done: CreationDuCompteCampusFranceStepDefinitions.WhenLutilisateurRenseigneLeNomDeLorganisme("<NomdeLorganisation>") (4,1s)
+And L'Utillisateur clique sur "accepter"
+-> done: CreationDuCompteCampusFranceStepDefinitions.WhenLUtillisateurCliqueSur("accepter") (0,1s)
+Then afficher les messagess
+-> done: CreationDuCompteCampusFranceStepDefinitions.ThenAfficherLesMessagess() (0,0s)

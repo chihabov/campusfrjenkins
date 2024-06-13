@@ -1,0 +1,28 @@
+﻿[
+  {
+    "email": "mail@gmail.com",
+    "Motdepass": "Mdp1111",
+    "confMotPasse": "Mdp1111",
+    "Nom": "LEMAIRE",
+    "Prénom": "Jaques",
+    "PaysNationnalité": "Française",
+    "Codepostal": "75014",
+    "Ville": "Paris",
+    "Telephone": "0756453423"
+  },
+  {
+    "email": "mail2@gmail.com",
+    "Motdepass": "Mdp2222",
+    "confMotPasse": "Mdp2222",
+    "Nom": "MACRON",
+    "Prénom": "Emmanuel",
+    "PaysNationnalité": "Française",
+    "Codepostal": "75008",
+    "Ville": "Paris",
+    "Telephone": "0756453424",
+    "Institution": {
+      "Fonction": "Président",
+      "h": "France"
+    }
+  }
+]

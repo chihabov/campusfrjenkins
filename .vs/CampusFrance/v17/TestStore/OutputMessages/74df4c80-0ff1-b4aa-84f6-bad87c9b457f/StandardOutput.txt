@@ -1,0 +1,52 @@
+-> Loading plugin C:\Users\chiha\source\repos\CampusFrance\CampusFrance\bin\Debug\net6.0\LivingDoc.SpecFlowPlugin.dll
+-> Loading plugin C:\Users\chiha\source\repos\CampusFrance\CampusFrance\bin\Debug\net6.0\TechTalk.SpecFlow.MSTest.SpecFlowPlugin.dll
+-> Loading plugin C:\Users\chiha\source\repos\CampusFrance\CampusFrance\bin\Debug\net6.0\CampusFrance.dll
+-> Using default config
+Given L'utilisateur se trouve sur la page daccueil de Campus France
+Pré requis
+-> done: CreationDuCompteCampusFranceStepDefinitions.GivenLutilisateurSeTrouveSurLaPageDaccueilDeCampusFrance() (7,0s)
+When L'utilisateur renseigne "<email>" , "<Motdepass>" , "<confMotPasse>"
+-> done: CreationDuCompteCampusFranceStepDefinitions.WhenLutilisateurRenseigne("<email>", "<Motdepass>", "<confMotPasse>") (13,5s)
+And L'utilisateur clique sur le bouton "Mme"
+-> done: CreationDuCompteCampusFranceStepDefinitions.WhenLutilisateurCliqueSurLeBouton("Mme") (2,2s)
+And L'utilisateur renseigne les champs "<Nom>","<Prénom>"
+-> done: CreationDuCompteCampusFranceStepDefinitions.WhenLutilisateurRenseigneLesChamps("<Nom>", "<Prénom>") (2,2s)
+And L'utilisateur séléctionne "Afrique", "<PaysdeNationalité>"
+-> done: CreationDuCompteCampusFranceStepDefinitions.WhenLutilisateurSelectionne("Afrique", "<PaysdeNationalité>") (2,5s)
+And L'utilisateur remplie "<Codepostal>", "<Ville>", "<Telephone>"
+-> done: CreationDuCompteCampusFranceStepDefinitions.WhenLutilisateurRemplie("<Codepostal>", "<Ville>", "<Telephone>") (8,4s)
+And L'utilisateur Clique sur le bouton Etudiants "Etudiants"
+-> done: CreationDuCompteCampusFranceStepDefinitions.WhenLutilisateurCliqueSurLeBoutonEtudiants("Etudiants") (2,1s)
+And L'utilisateur séléctionne le domaine "Biologie"
+-> done: CreationDuCompteCampusFranceStepDefinitions.WhenLutilisateurSelectionneLeDomaine("Biologie") (2,3s)
+And L'utilisateur séléctionne le niveau "Licence 1"
+-> done: CreationDuCompteCampusFranceStepDefinitions.WhenLutilisateurSelectionneLeNiveau("Licence 1") (2,3s)
+And L'utillisateur clique sur "accepter"
+-> done: CreationDuCompteCampusFranceStepDefinitions.WhenLutillisateurCliqueSur("accepter") (0,1s)
+Then afficher le message
+-> done: CreationDuCompteCampusFranceStepDefinitions.ThenAfficherLeMessage() (0,0s)
+
+
+TestContext Messages:
+Given L'utilisateur se trouve sur la page daccueil de Campus France
+-> done: CreationDuCompteCampusFranceStepDefinitions.GivenLutilisateurSeTrouveSurLaPageDaccueilDeCampusFrance() (7,0s)
+When L'utilisateur renseigne "<email>" , "<Motdepass>" , "<confMotPasse>"
+-> done: CreationDuCompteCampusFranceStepDefinitions.WhenLutilisateurRenseigne("<email>", "<Motdepass>", "<confMotPasse>") (13,5s)
+And L'utilisateur clique sur le bouton "Mme"
+-> done: CreationDuCompteCampusFranceStepDefinitions.WhenLutilisateurCliqueSurLeBouton("Mme") (2,2s)
+And L'utilisateur renseigne les champs "<Nom>","<Prénom>"
+-> done: CreationDuCompteCampusFranceStepDefinitions.WhenLutilisateurRenseigneLesChamps("<Nom>", "<Prénom>") (2,2s)
+And L'utilisateur séléctionne "Afrique", "<PaysdeNationalité>"
+-> done: CreationDuCompteCampusFranceStepDefinitions.WhenLutilisateurSelectionne("Afrique", "<PaysdeNationalité>") (2,5s)
+And L'utilisateur remplie "<Codepostal>", "<Ville>", "<Telephone>"
+-> done: CreationDuCompteCampusFranceStepDefinitions.WhenLutilisateurRemplie("<Codepostal>", "<Ville>", "<Telephone>") (8,4s)
+And L'utilisateur Clique sur le bouton Etudiants "Etudiants"
+-> done: CreationDuCompteCampusFranceStepDefinitions.WhenLutilisateurCliqueSurLeBoutonEtudiants("Etudiants") (2,1s)
+And L'utilisateur séléctionne le domaine "Biologie"
+-> done: CreationDuCompteCampusFranceStepDefinitions.WhenLutilisateurSelectionneLeDomaine("Biologie") (2,3s)
+And L'utilisateur séléctionne le niveau "Licence 1"
+-> done: CreationDuCompteCampusFranceStepDefinitions.WhenLutilisateurSelectionneLeNiveau("Licence 1") (2,3s)
+And L'utillisateur clique sur "accepter"
+-> done: CreationDuCompteCampusFranceStepDefinitions.WhenLutillisateurCliqueSur("accepter") (0,1s)
+Then afficher le message
+-> done: CreationDuCompteCampusFranceStepDefinitions.ThenAfficherLeMessage() (0,0s)
